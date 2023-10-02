@@ -1,0 +1,63 @@
+California-Housing longitude 
+INFO: The graph of feature longitude was simplified by 5.4%.
+(-122.57499999999999, 52269.25807145127, 'The largest jump in the graph occurs between the intervals (-122.63499999999999, -122.57499999999999) and (-122.57499999999999, -122.455). The absolute difference in the mean values for these two intervals is 52269.3. \n\nTherefore, the biggest jump in the graph is 52269.3, and its position on the x-axis is at the point -122.57499999999999, which is the boundary between these two intervals.')
+California-Housing latitude
+(37.595, 55613.0603689765, 'The biggest jump in the graph occurs between the latitude intervals of "(34.305, 34.355000000000004)" and "(34.355000000000004, 34.515)". The difference in mean values between these intervals is 44561.3, which is the largest absolute change among all jumps. This change happens at the position on the x-axis from 34.355000000000004 to 34.515.')
+California-Housing housing_median_age
+(51.5, 17795.393800798258, 'The biggest jump in the graph occurs between the intervals (50.5, 51.5) and (51.5, 52.0), with an absolute difference in mean values of 17795.4. \n\nSo, the position on the x-axis where this jump occurs is at 51.5.')
+California-Housing total_rooms
+(405.5, 30870.147231725612, 'The biggest jump in the graph occurs between the intervals "(2.0, 198.5)" and "(198.5, 323.0)", with an absolute difference of 18066.4.\n\nThis jump occurs at the position x = 198.5 on the x-axis, which is the boundary between these two intervals.')
+California-Housing total_bedrooms
+(265.5, 15825.623741686995, 'The biggest jump in the graph is from the interval "(1599.5, 2906.0)" to the interval "(2906.0, 6445.0)", and the magnitude of this jump is 8548.4. The position on the x-axis for this jump is 2906.0, which is the end of the first interval and the beginning of the second interval.')
+California-Housing population
+(837.5, 16254.73177086813, "The biggest jump in the graph, in terms of absolute magnitude, occurs at position (4909.0, 35682.0) where the jump is -102081.5 - (-87513.5) = -14568.0. This is the largest absolute change in the mean value between two consecutive intervals. It's a decrease, as indicated by the negative sign. The position on the x-axis is from 4909.0 to 35682.0.")
+California-Housing households
+(14.5, 32272.55545822275, 'The biggest jump in the graph happens between the intervals "(2.0, 14.5)" and "(14.5, 59.5)". The absolute change in the mean value at this jump is 32272.6.\n \nThe position of this jump on the x-axis is at 14.5, which is the endpoint of the first interval and the starting point of the second interval.')
+California-Housing median_income
+(7.71565, 34109.28764682289, 'The biggest jump in the graph is 28744.0, which occurs between the intervals "(5.83725, 6.30495)" and "(6.30495, 6.856949999999999)". \n\nOn the x-axis, the position of this jump is at 6.30495, which is the start of the interval where the jump ends. This is the point where the mean value jumps from 80747.5 to 109491.5.')
+OpenML-Diabetes Pregnancies
+(2.5, 0.38401845845297444, 'The biggest jump in the graph is from the interval "(0.5, 2.5)" to the interval "(2.5, 6.5)". The absolute magnitude of this jump is 0.384. \n\nThe position on the x-axis for this jump is at 2.5, which is the boundary between these two intervals.')
+OpenML-Diabetes Glucose
+(154.5, 0.548584239789924, 'The biggest jump in the graph is from the interval (154.5, 159.5) to the interval (159.5, 165.5), with a magnitude of 0.548. \n\nThe position of this jump on the x-axis is at the point of 159.5, which is the boundary between these two intervals.')
+OpenML-Diabetes BloodPressure
+(37.0, 0.5056492310135006, 'The largest absolute jump in the graph is from the interval (15.0, 37.0) to (37.0, 59.0). The magnitude of this jump is 0.5056. \n\nThe position of this jump on the x-axis is at 37.0, which is the boundary between these two intervals.')
+OpenML-Diabetes SkinThickness
+(55.0, 0.4999473397499258, 'The biggest jump in the graph is from the interval (51.0, 55.0) to (55.0, 99.0). The size of the jump is 0.5 (going from -0.2116 to 0.2884). This is a positive jump, indicating an increase in the mean prediction value. The position on the x-axis where this jump occurs is at 55.0.')
+OpenML-Diabetes Insulin
+(36.5, 0.4244195447865316, 'The biggest jump in the graph, in terms of absolute magnitude, happens between the intervals (26.0, 36.5) and (36.5, 87.5). The mean value jumps from 0.0541 to -0.3703, making the jump size -0.4244. \n\nThis jump happens at the x-axis position of 36.5, which is the boundary between these two intervals.')
+OpenML-Diabetes BMI
+(26.35, 0.6718994653257663, 'The biggest jump in the graph is between the intervals "(9.1, 26.35)" and "(26.35, 28.15)" with a magnitude of 0.672. \n\nThe position of this jump on the x-axis is at 26.35, which is the boundary between the two intervals.')
+OpenML-Diabetes DiabetesPedigreeFunction
+(1.3925, 0.39288199008642416, 'The biggest absolute jump in the graph occurs between the intervals (1.2185000000000001, 1.3925) and (1.3925, 1.451). \n\nThe mean value decreases from 0.6037 in the interval (1.2185000000000001, 1.3925) to 0.2108 in the interval (1.3925, 1.451). Therefore, the magnitude of the jump is |0.2108 - 0.6037| = 0.3929. \n\nThe position on the x-axis where this jump occurs is at the boundary between these two intervals, which is at x = 1.3925.')
+OpenML-Diabetes Age
+(62.5, 0.44669856676639424, 'The biggest jump in the graph occurs at 62.5 on the x-axis. The jump has a magnitude of -0.447. Please note that the direction of the jump is negative, meaning the graph decreases at this point.')
+Iris-setosa sepal_length
+(5.85, 1.735337669900049, 'The biggest jump in the graph occurs between the intervals "(5.55, 5.85)" and "(5.85, 7.7)". The absolute size of this jump is 1.735. \n\nThe position on the x-axis for this jump is at 5.85, which is the end of the interval "(5.55, 5.85)" and the start of the interval "(5.85, 7.7)".')
+Iris-setosa sepal_width
+(3.75, 0.8033924913646779, 'The biggest jump in the graph is of size 0.804 and it occurs between the x-axis intervals of "(3.6500000000000004, 3.75)" to "(3.75, 4.1)". This means the target variable value jumps from 2.766 to 3.57 as we move from sepal width of 3.75 to sepal widths greater than 3.75.')
+Iris-setosa petal_length
+(2.45, 7.465038144825094, "The largest absolute jump in the graph is 7.465. \n\nThis jump occurs between the intervals (1.7999999999999998, 2.45) and (2.45, 3.15) on the x-axis, which represent the feature 'petal_length'. \n\nTherefore, the position of this jump on the x-axis is 2.45, which is the end of the first interval and the start of the second interval.")
+Iris-setosa petal_width
+(0.75, 7.964391523349182, 'The biggest jump in the graph occurs when transitioning from the second interval (0.45, 0.75) to the third interval (0.75, 2.5). The absolute magnitude of this jump is 7.965.\n\nThe position of this jump on the x-axis is 0.75, which is the boundary between these two intervals.')
+Titanic Pclass
+(2.5, 0.3748510513258756, 'The biggest jump in the graph, in absolute terms, is 0.3748. This is a decrease and it occurs between the second interval "(1.5, 2.5)" and the third interval "(2.5, 3.0)", specifically at the x-axis position of 2.5.')
+Titanic Age
+(2.5, 1.6062609920362108, 'The biggest jump in the graph occurs from the interval (2.0, 2.5) to the interval (2.5, 15.5). The size of the jump is 1.606. \n\nSo, the position of this jump on the x-axis is at the point 2.5, which is the boundary between these two intervals.')
+Titanic SibSp
+(0.5, 0.45473056271222523, 'The biggest jump in the graph happens between the intervals `(0.0, 0.5)` and `(0.5, 1.5)`. The position on the x-axis where this jump happens is at `0.5`. The absolute magnitude of this jump is `0.4548`.')
+Titanic Parch
+(1.5, 0.3563736311175052, 'The biggest jump in the graph goes from -0.032 to -0.3884, which is an absolute change of 0.3564. This jump occurs at the position on the x-axis where the interval changes from (0.5, 1.5) to (1.5, 4.0).')
+Titanic Fare
+(387.6646, 1.3334462401667715, 'The biggest jump in the graph occurs between the intervals (211.41875, 387.6646) and (387.6646, 512.3292). The absolute magnitude of this jump is 1.333. \n\nThe position on the x-axis for this jump is at 387.6646, which is the border between these two intervals.')
+Spaceship-Titanic Age
+(76.5, 1.0402378072777736, 'The biggest jump in the graph is between the intervals "(73.5, 76.5)" and "(76.5, 79.0)". The magnitude of this jump is 1.04, which is the absolute difference between the mean values of these intervals (0.571 and -0.469 respectively). \n\nThe position of this jump on the x-axis is at 76.5 years, which is the shared boundary of these two intervals.')
+Spaceship-Titanic RoomService
+(2430.0, 1.427869827198069, 'The largest absolute jump in the graph is from the interval "(2319.0, 2430.0)" to "(2430.0, 3333.5)", with a magnitude of 1.427. This jump occurs at the position 2430.0 on the x-axis.')
+Spaceship-Titanic FoodCourt
+(8824.0, 0.9997768080799152, "The biggest jump in the graph happens between the intervals (6291.0, 8824.0) to (8824.0, 10061.0). The absolute change in the mean value, or the 'jump', is 1. \n\nThe position of this jump on the x-axis is at 8824.0, which is the ending point of the first interval and the starting point of the second interval where this jump occurs.")
+Spaceship-Titanic ShoppingMall
+(3741.5, 1.2972216599375361, 'The biggest jump in the graph is from the interval (4845.5, 12253.0) to the interval (3741.5, 4845.5). The absolute size of this jump is 1.090, which is the difference in the mean values of these two intervals. \n\nThis jump occurs at the position 4845.5 on the x-axis, which is the starting point of the interval (4845.5, 12253.0) and the ending point of the interval (3741.5, 4845.5).')
+Spaceship-Titanic Spa
+(1815.5, 1.0431247871682854, 'The biggest jump in the graph, in terms of absolute magnitude, is 1.043. \n\nThis jump occurs between the intervals (1320.5, 1815.5) and (1815.5, 2586.0) on the x-axis. \n\nTo be more specific, the position of this jump on the x-axis is at the point 1815.5, as this is the point where the transition between the two intervals happens.')
+Spaceship-Titanic VRDeck
+(1909.5, 0.878870376587608, 'The biggest jump in the graph is of absolute size 0.879, and it occurs between the intervals "(1796.0, 1909.5)" and "(1909.5, 2301.0)" on the x-axis. \n\nSo, the jump happens at the position 1909.5 on the x-axis. This is the point where the mean value of the function goes from -1.882 to -2.761, which is an absolute jump of 0.879.')

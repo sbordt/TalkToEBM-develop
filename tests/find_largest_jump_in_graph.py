@@ -9,6 +9,16 @@ from t2ebm import prompts
 import test_util
 
 import json
+import os
+from datetime import datetime
+import copy
+import time
+
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_random_exponential,
+)
 
 
 def graph_largest_jump(graph, x_val):
@@ -21,9 +31,14 @@ def graph_largest_jump(graph, x_val):
     return graph.x_vals[largest_jump_idx][1], jumps[largest_jump_idx]
 
 
+@retry(
+    wait=wait_random_exponential(min=1, max=60),
+    stop=stop_after_attempt(7),
+)
 def find_largest_jump_in_graph(llm, ebm, feature_name, x_val=None):
     feature_index = ebm.feature_names.index(feature_name)
     graph = graphs.extract_graph(ebm, feature_index)
+    graph = graphs.simplify_graph(graph, 0.05)
     graph_as_text = graphs.graph_to_text(graph, max_tokens=3000)
     prompt = prompts.describe_graph(graph_as_text, include_assistant_response=True)
     # if x_val is not provided, choose a random bin and then sample a random value from within that bin
@@ -33,8 +48,8 @@ def find_largest_jump_in_graph(llm, ebm, feature_name, x_val=None):
         bin = graph.x_vals[bin_index]
         x_val = np.random.uniform(bin[0], bin[1])
     # the actual value of the graph at x_value
-    text_graph = graphs.text_to_graph(graph_as_text)
-    jump_pos, jump_size = graph_largest_jump(text_graph, x_val)
+    # text_graph = graphs.text_to_graph(graph_as_text)
+    jump_pos, jump_size = graph_largest_jump(graph, x_val)
     # the prompt
     prompt += """\n\n{{#user~}}\nThanks. Within the different intervals, the graph predicts the same mean value. This means that we have discontinuous 'jumps' in the mean of the graph in between the intervals.
     
@@ -49,11 +64,33 @@ What are the 20 largest jumps in the graph? Please consider all parts of the the
     # print(guidance(prompt, llm=llm))
     # our prompts use guidance, and this is a nice way to print them
     response = guidance(prompt, llm=llm)()
-    print(response["all_jumps"])
+    # print(response["all_jumps"])
+    # logging, but only if the folder for the logs exists
+    log_folder = "../logs/largest-jump/gpt-3.5-turbo-16k-0613"
+    if os.path.exists(log_folder):
+        # the current data, including the hour, minute and seconds
+        now = datetime.now()
+        current_time = now.strftime("%H-%M-%S")
+        current_date = now.strftime("%d-%m-%Y")
+        logfilename = os.path.join(
+            log_folder, f"{current_date}-{current_time}-read-value.txt"
+        )
+        # log the response as a string
+        with open(logfilename, "w") as logfile:
+            logfile.write(str(response))
     return jump_pos, jump_size, response["larget_jump"]
 
 
 if __name__ == "__main__":
-    llm = test_util.openai_setup_gpt4()
-    ebm = test_util.get_ebm(test_util.SPACESHIP_TITANIC)
-    print(find_largest_jump_in_graph(llm, ebm, "Spa"))
+    llm = test_util.openai_setup_gpt3_5()
+    # llm = test_util.openai_setup_gpt4()
+    for dataset_name in test_util.get_avaialble_datasets():
+        ebm = test_util.get_ebm(dataset_name)
+        _, _, _, _, feature_names = test_util.get_dataset(dataset_name)
+        for feature_idx, feature_name in enumerate(feature_names):
+            graph = graphs.extract_graph(ebm, feature_idx)
+            if graph.feature_type == "continuous":
+                print(dataset_name, feature_name)
+                print(find_largest_jump_in_graph(llm, ebm, feature_name))
+                # sleep for 1 second
+                time.sleep(1)

@@ -1,0 +1,57 @@
+California-Housing longitude
+INFO: The graph of feature longitude was simplified by 5.4%.
+(-122.57499999999999, 52269.25807145127, 'The biggest jump in the graph is the jump from (-122.635, -122.575) to (-122.575, -122.455), with an absolute jump size of 52370.9. \n\nThe position of this jump on the x-axis is between the interval (-122.575, -122.455).')
+California-Housing latitude
+(37.595, 55613.0603689765, 'To determine the biggest jump in the graph, we need to calculate the absolute differences between consecutive mean values for each interval and identify the largest absolute difference.\n\nThe biggest jump in the graph occurs between the intervals (37.595, 37.754999999999995) and (37.754999999999995, 37.775000000000006). \n\nThe position of this jump on the x-axis is at a latitude of approximately 37.754999999999995.')
+California-Housing housing_median_age
+(51.5, 17795.393800798258, 'The biggest jump in the graph occurs between the intervals (50.5, 51.5) and (51.5, 52.0) on the x-axis. The absolute magnitude of this jump is 17795.4.')
+California-Housing total_rooms
+(405.5, 30870.147231725612, 'The biggest jump in the graph has a size of 33097.7 and its position on the x-axis is within the interval (3920.5, 3966.5).')
+California-Housing total_bedrooms
+(265.5, 15825.623741686995, 'The biggest jump in the graph, regardless of its direction (positive or negative), is the absolute largest jump. \n\nThe position of the biggest jump on the x-axis is at the interval (697.5, 736.5).')
+California-Housing population
+(837.5, 16254.73177086813, 'The biggest jump in the graph for the "population" feature is the jump from the interval "(3.0, 65.5)" to "(65.5, 151.5)". This jump has an absolute magnitude of 24,984.0, which is the largest among all the jumps in the graph.\n\nThe position of this jump on the x-axis is between the population values of 65.5 and 151.5.')
+California-Housing households
+(14.5, 32272.55545822275, 'The biggest jump in the graph is the one with the largest absolute magnitude. From the information provided, the biggest jump in the graph has a size of 27701.9. \n\nIts position on the x-axis is (119.5, 124.5).')
+California-Housing median_income
+(7.71565, 34109.28764682289, 'The biggest jump in the graph is the jump with the largest absolute magnitude. \n\nThe biggest jump in the graph has a position on the x-axis of (7.71565, 8.27845).')
+OpenML-Diabetes Pregnancies
+(2.5, 0.38401845845297444, 'The biggest jump in the graph occurs between the intervals (2.5, 6.5) and (0.5, 2.5), with an absolute jump size of 0.384. This means that the predicted value has a significant change between these two intervals.\n\nThe position of this jump on the x-axis is between the values 2.5 and 6.5 of the feature "Pregnancies".')
+OpenML-Diabetes Glucose
+(154.5, 0.548584239789924, 'The biggest jump in the graph has a size of 1.378 and its position on the x-axis is in the interval (165.5, 199.0).')
+OpenML-Diabetes BloodPressure
+(1.3925, 0.39288199008642416, 'The biggest jump in the graph for the "DiabetesPedigreeFunction" feature is the jump from the interval "(0.511, 0.5275000000000001)" to "(0.5275000000000001, 0.5455000000000001)". The absolute magnitude of this jump is 0.767.\n\nPlease note that the position of this jump on the x-axis is between the values 0.511 and 0.5275000000000001.')
+OpenML-Diabetes Age
+(62.5, 0.44669856676639424, 'The biggest jump in the graph is the jump from the interval "(61.5, 62.5)" to "(62.5, 81.0)" with an absolute jump size of 0.447. This jump represents the largest change in the mean value between any two adjacent intervals.\n\nIn terms of its position on the x-axis, the jump occurs between the ages of 61.5 and 62.5.')
+Iris-setosa sepal_length
+(5.85, 1.735337669900049, 'The biggest jump in the graph has a size of 1.277 and its position on the x-axis is the interval (4.3, 4.55).')
+Iris-setosa sepal_width
+(3.75, 0.8033924913646779, 'The biggest jump in the graph, in terms of absolute magnitude, is the jump from the interval (3.3499999999999996, 3.45) to (3.45, 3.6500000000000004). This jump has a size of 0.893.\n\nThe position of this jump on the x-axis is between the values 3.3499999999999996 and 3.45.')
+Iris-setosa petal_length
+(2.45, 7.465038144825094, 'The biggest jump in the graph for the continuous-valued feature "petal_length" is between the intervals (1.1, 1.7999999999999998) and (3.15, 6.9). \n\nThe size of this jump is |5.77 - (-2.946)| = 8.716.\n\nThe position of this jump on the x-axis is from the end of the interval (1.1, 1.7999999999999998) to the start of the interval (3.15, 6.9).')
+Iris-setosa petal_width
+(0.75, 7.964391523349182, 'The biggest jump in the graph, with the largest absolute magnitude, is 7.965. \n\nThe position of this jump on the x-axis is between the intervals (0.45, 0.75) and (0.75, 2.5).')
+Titanic Pclass
+(2.5, 0.3748510513258756, 'The biggest jump in the graph for the "Pclass" feature is the jump from the interval (2.5, 3.0) to (1.5, 2.5). This jump has an absolute magnitude of 0.3748.\n\nThe position of this jump on the x-axis is between the intervals 2.5 and 3.0.')
+Titanic Age
+(2.5, 1.6062609920362108, 'The biggest jump in the graph has a size of 1.606 and its position on the x-axis is between the intervals (2.5, 15.5).')
+Titanic SibSp
+(0.5, 0.45473056271222523, 'The biggest jump in the graph occurs between the intervals "(0.5, 1.5)" and "(2.5, 3.0)". \n\nThe position of this jump on the x-axis is between the values 1.5 and 2.5 for the feature "SibSp".')
+Titanic Parch
+(1.5, 0.3563736311175052, 'The biggest jump in the graph is the jump with the largest absolute magnitude. From the provided data, the biggest jump in the graph is:\n\nPosition: (1.5, 4.0)\nSize: 0.3564\n\nTherefore, the biggest jump in the graph has a size of 0.3564 and its position on the x-axis is the interval (1.5, 4.0).')
+Titanic Fare
+(387.6646, 1.3334462401667715, 'The biggest jump in the graph is the jump with the largest absolute magnitude. From the information provided, the biggest jump in the graph is observed between the intervals (387.6646, 512.3292) and (10.48125, 12.9375). This jump has a magnitude of 2.333.\n\nThe position of this jump on the x-axis is between the fare values of 387.6646 and 512.3292.')
+Spaceship-Titanic Age
+(76.5, 1.0402378072777736, 'The biggest jump in the graph, considering both positive and negative jumps, is the jump with the largest absolute magnitude. From the provided information, the biggest jump in the graph has a size of 1.142.\n\nThe position of this largest jump on the x-axis is within the interval (73.5, 76.5).')
+Spaceship-Titanic RoomService
+(2430.0, 1.427869827198069, 'The biggest jump in the graph occurs between the intervals (3333.5, 14327.0) and (0.025, (1034.0, 2207.5)). The magnitude of this jump is 3.521. \n\nThe position of this jump on the x-axis is between the values 3333.5 and 14327.0 of the "RoomService" feature.')      
+Spaceship-Titanic FoodCourt
+(8824.0, 0.9997768080799152, 'The biggest jump in the graph occurs between the intervals (3589.0, 4067.0) and (4067.0, 4618.5) of the continuous feature "FoodCourt". The absolute difference in mean values between these two intervals is 0.93. \n\nThe position of this jump on the x-axis is at the boundary between the intervals, specifically at the value 4067.0.')
+Spaceship-Titanic ShoppingMall
+(3741.5, 1.2972216599375361, 'The biggest jump in the graph is the jump from the interval (4845.5, 12253.0) to the interval (0.0, 0.5). The absolute jump size for this jump is 3.562.\n\nThe position of this jump on the x-axis is at the boundary between the intervals (4845.5, 12253.0) and (0.0, 0.5).')
+Spaceship-Titanic Spa
+(1815.5, 1.0431247871682854, 'The biggest jump in the graph has a jump size of 2.516 and is located within the interval (2586.0, 2905.5) on the x-axis.')
+Spaceship-Titanic VRDeck
+(1909.5, 0.878870376587608, 'To determine the biggest jump in the graph, we need to find the jump with the largest absolute magnitude among all the intervals.\n\nThe biggest jump in the graph is located in the interval (879.0, 1514.5) with a size (absolute magnitude) of 0.628. This jump represents the largest change in the mean value of the feature VRDeck between two adjacent intervals.')
+
+

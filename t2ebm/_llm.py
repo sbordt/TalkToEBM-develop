@@ -64,6 +64,7 @@ def llm_describe_ebm_graph(llm, ebm, feature_index, num_sentences=7, **kwargs):
         graph, num_sentences=num_sentences, **llm_descripe_dict
     )
 
+    # TODO save log if requested
     return guidance(prompt, llm, silent=True)()["cot_graph_description"]
 
 
@@ -125,4 +126,6 @@ def llm_describe_ebm(llm, ebm, num_sentences=30, **kwargs):
         num_sentences=num_sentences,
         **llm_summarize_dict,
     )
+
+    # TODO save log if requested
     return guidance(prompt, llm, silent=True)()["short_summary"]

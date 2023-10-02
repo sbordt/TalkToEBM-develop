@@ -9,15 +9,34 @@ import pickle
 
 from sklearn.model_selection import train_test_split
 
-from interpret.glassbox import ExplainableBoostingClassifier
+from interpret.glassbox import (
+    ExplainableBoostingClassifier,
+    ExplainableBoostingRegressor,
+)
 
 RANDOM_STATE = 1498672
 
+IRIS_SETOSA = (
+    "Iris-setosa"  # binary classification of Iris-setosa vs. all other species
+)
+TITANIC = "Titanic"
 SPACESHIP_TITANIC = "Spaceship-Titanic"
+CALIFORNIA_HOUSING = "California-Housing"
+OPENML_DIABETES = "OpenML-Diabetes"
 
-DATASETS = [SPACESHIP_TITANIC]
+DATASETS = [
+    CALIFORNIA_HOUSING,
+    OPENML_DIABETES,
+    IRIS_SETOSA,
+    TITANIC,
+    SPACESHIP_TITANIC,
+]
 
-LLM = None
+
+def openai_setup_gpt3_5():
+    openai.organization = os.environ["OPENAI_API_ORG"]
+    openai.api_key = os.environ["OPENAI_API_KEY"]
+    return guidance.llms.OpenAI("gpt-3.5-turbo-16k-0613")
 
 
 def openai_setup_gpt4():
@@ -26,12 +45,13 @@ def openai_setup_gpt4():
     return guidance.llms.OpenAI("gpt-4-0613")
 
 
-def get_llm():
-    return LLM
-
-
 def get_avaialble_datasets():
     return DATASETS
+
+
+def get_dataset_description(dataset_name):
+    """Returns: dataset description (str), dataset y axis description (str)"""
+    pass
 
 
 def get_dataset(dataset_name):
@@ -51,6 +71,36 @@ def get_dataset(dataset_name):
         feature_names = df.drop(
             columns=["PassengerId", "Transported", "Name"]
         ).columns.tolist()
+    elif dataset_name == TITANIC:
+        df = pd.read_csv("../data/titanic-train.csv")
+        # drop rows with missing values
+        df = df.dropna()
+        y_data = df["Survived"].values
+        df = df.drop(columns=["PassengerId", "Name", "Survived"])
+        X_data = df.values
+        feature_names = df.columns.tolist()
+    elif dataset_name == IRIS_SETOSA:
+        df = pd.read_csv("../data/IRIS.csv")
+        df = df.dropna()
+        y_data = df["species"].values == "Iris-setosa"  # binary classification
+        df = df.drop(columns=["species"])
+        X_data = df.values
+        feature_names = df.columns.tolist()
+    elif dataset_name == CALIFORNIA_HOUSING:
+        df = pd.read_csv("../data/california-housing.csv")
+        df = df.dropna()  # drop rows with missing values
+        y_data = df["median_house_value"].values
+        df = df.drop(columns=["median_house_value"])
+        X_data = df.values
+        feature_names = df.columns.tolist()
+    elif dataset_name == OPENML_DIABETES:
+        df = pd.read_csv("../data/openml-diabetes.csv")
+        # drop rows with missing values
+        df = df.dropna()
+        y_data = df["Outcome"].values
+        df = df.drop(columns=["Outcome"])
+        X_data = df.values
+        feature_names = df.columns.tolist()
     else:
         raise ValueError("Unknown dataset: ", dataset_name)
 
@@ -71,11 +121,23 @@ def get_ebm(dataset_name):
         with open(model_file, "rb") as file:
             ebm = pickle.load(file)
     else:  # otherwise train and save
-        if dataset_name == SPACESHIP_TITANIC:
+        if dataset_name in [SPACESHIP_TITANIC, IRIS_SETOSA, TITANIC, OPENML_DIABETES]:
+            # classification
             ebm = ExplainableBoostingClassifier(
                 interactions=0,
                 feature_names=feature_names,
                 random_state=2 * RANDOM_STATE,
+            )
+            ebm.fit(X_train, y_train)
+            # store for later use
+            with open(model_file, "wb") as file:
+                pickle.dump(ebm, file)
+        elif dataset_name in [CALIFORNIA_HOUSING]:
+            # regression
+            ebm = ExplainableBoostingRegressor(
+                interactions=0,
+                feature_names=feature_names,
+                random_state=3 * RANDOM_STATE,
             )
             ebm.fit(X_train, y_train)
             # store for later use

@@ -1,0 +1,101 @@
+(808.8588309208491, 34222.007449960816, 'The value 808.8588 falls within the interval "(770.5, 837.5)". Therefore, the mean value of the graph at 808.8588 is 34222.0.')
+California-Housing households
+(119.03641697628254, -31656.71307605082, 'The mean value of the graph at 119.0364 falls within the interval "(119.5, 124.5)". Therefore, the mean value at 119.0364 is -39358.9 according to the model.')
+(562.2531907216475, 9705.370874659424, 'The mean value of the graph at 562.2532 falls within the interval "(553.5, 615.5)". Therefore, the mean value at 562.2532 is 9705.4.')
+(816.175465100976, 18191.097044099144, 'The value 816.1755 falls within the interval "(799.5, 843.5)". The mean value of the graph at this point is 18191.1.')
+California-Housing median_income
+(6.821308895055576, 109491.47631422295, 'The value of 6.8213 falls within the interval "(6.856949999999999, 7.71565)". Therefore, the mean value of the graph at 6.8213 is 132610.3.')
+(4.96129830605228, 33985.397585256156, 'The value 4.9613 falls within the interval "(4.7239, 5.328749999999999)". Therefore, the mean value of the graph at 4.9613 is 33985.4.')
+(5.829508317830383, 65760.83367133953, 'The value 5.8295 falls within the interval "(5.83725, 6.30495)". However, it seems there might be a mistake as 5.8295 is actually less than 5.83725. \n\nAssuming the intervals are correct, the mean value for the interval "(5.83725, 6.30495)" is 80747.5. \n\nIf there\'s a mistake in the intervals and 5.8295 should actually fall within')
+OpenML-Diabetes Pregnancies
+(8.470375549953214, 0.2793467360614438, 'The value 8.4704 falls within the interval "(8.5, 9.5)". Therefore, the mean value of the graph at 8.4704 is 0.3281.')
+(0.3135885570125302, -0.06944032712857294, 'The value 0.3136 falls within the interval (0.5, 2.5). Therefore, the mean value of the graph at 0.3136 is -0.2827.')
+(10.815216336108413, 0.18396086106968146, 'The value 10.8152 falls within the interval "(9.5, 11.5)". Therefore, the mean value of the graph at 10.8152 is 0.184.')
+OpenML-Diabetes Glucose
+(167.03604618521882, 1.3710946150697514, 'The value 167.0360 falls within the glucose level interval (165.5, 199.0). Therefore, the mean value of the graph at 167.0360 is 1.371.')
+(107.74732964094332, -0.2684626305502803, 'The value 107.7473 falls within the interval (103.5, 120.5). Therefore, the mean value of the graph at 107.7473 is -0.268.')
+(141.28562387148472, 0.22079686035166513, 'The value 141.2856 falls within the glucose level interval (129.5, 154.5). Therefore, the mean value of the graph at 141.2856 is 0.221.')
+OpenML-Diabetes BloodPressure
+(93.85293193921156, -0.026098556682063873, 'The value 93.8529 falls within the interval (87.0, 95.0). Therefore, the mean value of the graph at 93.8529 is -0.0261.')
+(105.12983570680973, 0.3195029279610133, 'The mean value of the graph at 105.1298 falls within the interval "(105.0, 109.0)". Therefore, the mean value at this point is 0.3195.')
+(91.9792963831195, -0.026098556682063873, 'The value 91.9793 falls within the interval (87.0, 95.0). Therefore, the mean value of the graph at 91.9793 is -0.0261.')
+OpenML-Diabetes SkinThickness
+(43.07630454019574, 0.29671132773047004, 'The value 43.0763 falls within the interval (42.5, 43.5). Therefore, the mean value of the graph at 43.0763 is 0.2967.')
+(47.644365211766356, 0.25771985918831797, 'The value 47.6444 falls within the interval (47.5, 49.5). Therefore, the mean value of the graph at 47.6444 is 0.2577.')
+(41.67209670263397, 0.43549759556642875, 'The value 41.6721 falls within the interval (41.5, 42.5). Therefore, the mean value of the graph at 41.6721 is 0.4355.')
+OpenML-Diabetes Insulin
+(358.10048508062914, 0.17736294394925745, 'The value 358.1005 falls within the interval "(347.5, 397.0)". Therefore, the mean value of the graph at 358.1005 is 0.1774.')
+(248.99649448582653, 0.017397624849847304, 'The value 248.9965 falls within the interval "(192.5, 273.0)". Therefore, the mean value of the graph at 248.9965 is 0.0174.')
+(301.8560644451658, 0.1264190081704399, 'The value 301.8561 falls within the interval "(298.5, 347.5)". Therefore, the mean value of the graph at 301.8561 is 0.1264.')
+OpenML-Diabetes BMI
+(46.81594628660675, 0.7210098605773041, 'The mean value of the graph at 46.8159 falls within the interval "(46.75, 48.349999999999994)". Therefore, the mean value at 46.8159 is 0.721.')
+(66.29876865611027, 0.9450872368219069, 'The mean value of the graph at 66.2988 falls within the interval "(48.349999999999994, 67.1)". Therefore, the mean value at 66.2988 is 0.945.')
+(60.35695537078534, 0.9450872368219069, 'The mean value of the graph at 60.3570 falls within the interval "(48.349999999999994, 67.1)". Therefore, the mean value at 60.3570 is 0.945.')
+OpenML-Diabetes DiabetesPedigreeFunction
+(1.0075025210738242, 0.4288150754106515, 'The value 1.0075 falls within the interval (0.9325000000000001, 1.1855). The mean value of the graph at this interval is 0.4288.')
+(0.526893409823017, 0.1464376700741081, 'The value 0.5269 falls within the interval (0.511, 0.5275000000000001). The mean value of the graph at this point is 0.1464.')
+(0.9184757142246168, 0.3619514457750106, 'The value 0.9185 falls within the interval "(0.5455000000000001, 0.9045000000000001)". The mean value of the graph at this interval is 0.2877.')
+OpenML-Diabetes Age
+(62.16347170329677, -0.303262612431587, 'The age 62.1635 falls within the interval "(62.5, 81.0)". Therefore, the mean value of the graph at age 62.1635 is -0.75.')
+(41.59395916387792, 0.4778402238483462, 'The age 41.5940 falls within the interval "(30.5, 54.5)". Therefore, the mean value of the graph at this age is 0.478.')
+(61.63955992138361, -0.303262612431587, 'The mean value of the graph at age 61.6396 falls within the interval "(61.5, 62.5)". Therefore, the mean value at this age is -0.303.')
+Iris-setosa sepal_length
+(4.603829697388639, 4.125582771463988, 'The value 4.6038 falls within the interval (4.55, 4.85). Therefore, the mean value of the graph at 4.6038 is 4.126.')
+(4.746989111599562, 4.125582771463988, 'The value 4.7470 falls within the interval (4.55, 4.85). Therefore, the mean value of the graph at 4.7470 is 4.126.')
+(4.944232635913889, 2.9084700766769696, 'The value 4.9442 falls within the interval (4.85, 5.05). Therefore, the mean value of the graph at 4.9442 is 2.908.')
+Iris-setosa sepal_width
+(2.8100554340778534, -1.304191867596129, 'The value 2.8101 falls within the interval "(2.75, 2.8499999999999996)". Therefore, the mean value of the graph at 2.8101 is -1.304.')
+(3.380569712800588, 1.7226870380383172, 'The value 3.3806 falls within the interval "(3.3499999999999996, 3.45)". Therefore, the mean value of the graph at 3.3806 is 1.723.')
+(3.3229551034671836, 1.0318074843879637, 'The value 3.3230 falls within the interval "(3.25, 3.3499999999999996)". Therefore, the mean value of the graph at 3.3230 is 1.032.')
+Iris-setosa petal_length
+(5.338779579358085, -2.9458696720264186, 'The value 5.3388 falls within the interval (3.15, 6.9). Therefore, the mean value of the graph at 5.3388 is -2.946.')
+(6.584641840037711, -2.9458696720264186, 'The value 6.5846 falls within the interval (3.15, 6.9). Therefore, the mean value of the graph at 6.5846 is -2.946.')
+(1.9314219677534534, 5.144117106987727, 'The value 1.9314 falls within the interval (1.7999999999999998, 2.45). Therefore, the mean value of the graph at 1.9314 is 5.144.')
+Iris-setosa petal_width
+(0.31661647195689646, 5.768531004067173, 'The value 0.3166 falls within the first interval of petal width (0.1, 0.45). Therefore, the mean value of the graph at 0.3166 is 5.769.')
+(0.5559203352321536, 5.07581111379687, 'The value 0.5559 falls within the interval (0.45, 0.75). Therefore, the mean value of the graph at 0.5559 is 5.076.')
+(0.8056936133497528, -2.8885804095523113, 'The value 0.8057 falls within the interval (0.75, 2.5). Therefore, the mean value of the graph at 0.8057 is -2.889.')
+Titanic Pclass
+(2.521282466891317, -0.1759357496116153, 'The value 2.5213 falls within the interval (2.5, 3.0). Therefore, the mean value of the graph at 2.5213 is -0.1759.')
+(2.8376653361717343, -0.1759357496116153, 'The value 2.8377 falls within the interval (2.5, 3.0). Therefore, the mean value of the graph at 2.8377 is -0.1759.')
+(1.2584305200790908, -0.0050615010036691305, 'The value 1.2584 falls within the interval (1.0, 1.5). Therefore, the mean value of the graph at 1.2584 is -0.0051.')
+Titanic Age
+(64.48323621955078, -1.0748904106370867, 'The mean value of the graph at 64.4832 falls within the interval "(60.5, 70.5)". Therefore, the mean value at 64.4832 is -1.075.')
+(37.286187179377336, -0.2158157323436481, 'The mean value of the graph at age 37.2862 falls within the interval "(36.25, 37.5)", which has a mean value of -0.216.')
+(55.42169246593103, -0.5438314888597342, 'The mean value of the graph at 55.4217 falls within the interval "(53.0, 59.0)", which has a mean value of -0.544.')
+Titanic SibSp
+(2.8440936980145834, -0.46181956983423667, 'The value 2.8441 falls within the interval `(2.5, 3.0)`. Therefore, the mean value of the graph at 2.8441 is `-0.4618`.')
+(0.15504527379701438, -0.14256666212856145, 'The value `0.1550` falls within the interval `(0.0, 0.5)`. Therefore, the mean value of the graph at `0.1550` is `-0.1426`.')
+(2.347424856278403, -0.12234115245187696, 'The value 2.3474 falls within the interval `(2.5, 3.0)`. Therefore, the mean value of the graph at 2.3474 is `-0.4618`.')
+Titanic Parch
+(0.3678201221400637, 0.07864317813422418, 'The value 0.3678 falls within the interval (0.0, 0.5). Therefore, the mean value of the graph at 0.3678 is 0.0786.')
+(2.241551175315741, -0.38841519336285535, 'The value 2.2416 falls within the interval (1.5, 4.0). Therefore, the mean value of the graph at 2.2416 is -0.3884.')
+(2.380907067594149, -0.38841519336285535, 'The value 2.3809 falls within the interval (1.5, 4.0). Therefore, the mean value of the graph at 2.3809 is -0.3884.')
+Titanic Fare
+(10.88537744141139, 0.24979355433916725, 'The value 10.8854 falls within the interval (10.48125, 12.9375). Therefore, the mean value of the graph at 10.8854 is 0.25.')
+(6.126619366210487, -1.794909155936498, 'The value 6.1266 falls within the interval (0.0, 7.8500000000000005). Therefore, the mean value of the graph at 6.1266 is -1.795.')
+(498.51392816399675, 1.2419892506488772, 'The value 498.5139 falls within the interval "(387.6646, 512.3292)". The mean value for this interval is 1.242. Therefore, the mean value of the graph at 498.5139 is 1.242.')
+Spaceship-Titanic Age
+(25.497423498144293, -0.25070406505405685, 'The mean value of the graph at 25.4974 falls within the interval "(24.5, 25.5)". Therefore, the mean value at this age is -0.251.')
+(9.357292096679874, -0.015363705076926191, 'The mean value of the graph at 9.3573 falls within the interval "(9.5, 20.5)". Therefore, the mean value at 9.3573 is 0.067.')
+(65.31352382975192, -0.42519237585161096, 'The mean value of the graph at 65.3135 falls within the interval "(65.5, 70.5)". The mean value for this interval is 0.076.')
+Spaceship-Titanic RoomService
+(683.7658329105252, -1.1668852948046682, 'The value 683.7658 falls within the interval "(669.5, 725.5)". Therefore, the mean value of the graph at 683.7658 is -1.167.')
+(812.8496627880426, -0.7314000940205145, 'The value 812.8497 falls within the interval "(804.5, 817.5)". Therefore, the mean value of the graph at 812.8497 is -0.731.')
+(92.25246152388979, -0.1000429286129057, 'The value 92.2525 falls within the interval "(89.5, 95.5)". Therefore, the mean value of the graph at 92.2525 is -0.1.')
+Spaceship-Titanic FoodCourt
+(703.0728523317295, 0.28704803179714683, 'The value 703.0729 falls within the interval (653.5, 782.5). The mean value of the graph at this point is 0.287.')
+(16263.330598773855, 3.515966079554707, 'The value 16263.3306 falls within the interval (12806.5, 17413.0). The mean value of the graph at this point is 3.516.')
+(12465.55517086349, 3.1471421792718863, 'The value 12465.5552 falls within the interval (12806.5, 17413.0). The mean value of the graph at this point is 3.516.')
+Spaceship-Titanic ShoppingMall
+(3625.674447997224, 1.1658445778892141, 'The value 3625.6744 falls within the interval "(2553.0, 3741.5)". Therefore, the mean value of the graph at 3625.6744 is 1.166.')
+(4799.678881036098, 2.4630662378267503, 'The value 4799.6789 falls within the interval "(3741.5, 4845.5)". Therefore, the mean value of the graph at 4799.6789 is 2.463.')
+(1295.438102423984, 0.8510644092549348, 'The value 1295.4381 falls within the interval "(1276.5, 1354.0)". Therefore, the mean value of the graph at 1295.4381 is 0.851.')
+Spaceship-Titanic Spa
+(1975.5842492220872, -3.051995803955991, 'The value 1975.5842 falls within the interval (1320.5, 1815.5). Therefore, the mean value of the graph at 1975.5842 is -2.009.')
+(431.16841216651005, -0.2762757047436185, 'The value 431.1684 falls within the interval (240.5, 452.5). Therefore, the mean value of the graph at 431.1684 is -0.276.')
+(80.26427788181988, 0.49273258659487756, 'The value 80.2643 falls within the range (0.0, 104.5). Therefore, the mean value of the graph at 80.2643 is 0.493.')
+Spaceship-Titanic VRDeck
+(316.4311295846308, -0.29899866400178743, 'The value 316.4311 falls within the interval (151.5, 367.0). Therefore, the mean value of the graph at 316.4311 is -0.299.')
+(4037.8810836555513, -4.462142697732797, 'The value 4037.8811 falls within the interval "(3882.0, 4189.5)". Therefore, the mean value of the graph at 4037.8811 is -4.462.')
+(1306.003462067547, -1.7461375283562557, 'The value 1306.0035 falls within the interval "(879.0, 1514.5)". Therefore, the mean value of the graph at 1306.0035 is -1.746.')
